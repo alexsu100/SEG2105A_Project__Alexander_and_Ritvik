@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.servicenovigrad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".services_update_dialog"></activity>
+        <activity android:name=".layout_service_list" />
+        <activity android:name=".create_new_service" />
+        <activity android:name=".layout_users_list" />
+        <activity android:name=".admin_manage_services" />
+        <activity android:name=".admin_manage_users" />
+        <activity android:name=".WelcomePageUsers" />
+        <activity android:name=".WelcomePageAdmin" />
+        <activity android:name=".WelcomePageEmployee" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Service Novigrad</string>
+    <string name="SignUp">Sign Up</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="whitelogo">WhiteLogo</string>
+    <string name="userName">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="newUsersQ">New Users?</string>
+</resources>
