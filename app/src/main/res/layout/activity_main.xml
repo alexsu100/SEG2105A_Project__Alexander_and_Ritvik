@@ -13,23 +13,13 @@
         android:layout_height="wrap_content"
         android:background="#651FFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:contentDescription="@string/whitelogo"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/whitelogo" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/LinearLayout"
         android:layout_width="409dp"
         android:layout_height="400dp"
+        android:layout_marginTop="164dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,6 +34,7 @@
             android:layout_marginTop="100dp"
             android:layout_marginEnd="100dp"
             android:layout_marginRight="100dp"
+            android:autofillHints=""
             android:ems="10"
             android:gravity="center"
             android:hint="@string/userName"
@@ -52,8 +43,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_conversion_absoluteHeight="45dp"
-            tools:layout_conversion_absoluteWidth="210dp"
-            android:autofillHints="" />
+            tools:layout_conversion_absoluteWidth="210dp" />
 
         <EditText
             android:id="@+id/editTextPassword"
@@ -64,6 +54,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginEnd="100dp"
             android:layout_marginRight="100dp"
+            android:autofillHints=""
             android:ems="10"
             android:gravity="center"
             android:hint="@string/password"
@@ -72,8 +63,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editTextUserName"
             tools:layout_conversion_absoluteHeight="45dp"
-            tools:layout_conversion_absoluteWidth="210dp"
-            android:autofillHints="" />
+            tools:layout_conversion_absoluteWidth="210dp" />
 
         <Button
             android:id="@+id/btnLogin"

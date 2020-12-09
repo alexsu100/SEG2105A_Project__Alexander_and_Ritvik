@@ -13,14 +13,7 @@
         android:background="#651FFF"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/whitelogo" />
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout4"
@@ -32,15 +25,15 @@
 
         <TextView
             android:id="@+id/welcomeText3"
-            android:layout_width="257dp"
-            android:layout_height="43dp"
+            android:layout_width="277dp"
+            android:layout_height="95dp"
             android:layout_marginStart="100dp"
             android:layout_marginLeft="100dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="100dp"
             android:layout_marginRight="100dp"
             android:gravity="center"
-            android:text="Welcome, Customer1!"
+            android:text="Welcome customer!"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#651FFF"
             android:textSize="24sp"
@@ -64,9 +57,10 @@
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:text="Your Role is Customer"
+            android:layout_marginTop="56dp"
+            android:text="You are a resident of Ontario"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/welcomeText3" />
     </androidx.constraintlayout.widget.ConstraintLayout>

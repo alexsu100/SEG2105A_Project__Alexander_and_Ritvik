@@ -37,17 +37,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
 
 
-                // Code that I used to create admin
-//                DatabaseReference databaseUser;
-//                databaseUser = FirebaseDatabase.getInstance().getReference("users");
-//
-//                String id = databaseUser.push().getKey();
-//
-//                UserHelperClass adminData = new UserHelperClass( true, "admin@123.com", false,
-//                        id,"admin", "123admin456");
-//
-//                databaseUser.child("admin").setValue(adminData);
-
                 String currentUserName = editTextUserName.getText().toString();
 
 

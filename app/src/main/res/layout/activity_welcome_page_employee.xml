@@ -13,14 +13,7 @@
         android:background="#651FFF"
         android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <ImageView
-            android:id="@+id/imageView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/whitelogo" />
-    </LinearLayout>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/linearLayout4"
@@ -40,7 +33,7 @@
             android:layout_marginEnd="100dp"
             android:layout_marginRight="100dp"
             android:gravity="center"
-            android:text="Welcome, Employee1!"
+            android:text="Welcome employee!"
             android:textAppearance="@style/TextAppearance.AppCompat.Display1"
             android:textColor="#651FFF"
             android:textSize="24sp"
@@ -65,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Your role is Employee"
+            android:text="Service Novigrad Branch employee"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/welcomeText2" />

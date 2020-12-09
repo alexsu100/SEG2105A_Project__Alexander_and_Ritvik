@@ -1,4 +1,5 @@
 package com.example.servicenovigrad;
+import android.view.View;
 
 import org.junit.Test;
 import org.junit.Rule;
@@ -8,7 +9,7 @@ import org.junit.After;
 import static org.junit.Assert.*;
 
 
-public class Test1 {
+public class Test1<ActivityTestRule> {
 
     //this rule is saying that mainactivity is going to be launched
     @Rule
