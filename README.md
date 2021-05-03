@@ -1,8 +1,6 @@
-# SEG2105A_Project__Alexander_and_Ritvik
+# SEG2105A_Project
 
 Alexander Su - 300081295
-
-Ritvik Johar - 300074686
 
 Admin access: 
 
